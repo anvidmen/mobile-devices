@@ -1,15 +1,13 @@
-import { Route, Switch } from 'react-router-dom'
-import MobileDevices from 'views/MobileDevices'
-import ProductDetail from 'views/ProductDetail'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import MobileDevices from 'views/MobileDevices/MobileDevices'
 
 const App = () => {
   return (
-    <>
-      <Switch>
-        <Route exct path="/" component={MobileDevices} />
-        <Route path='product-detail' component={ProductDetail} />
-      </Switch>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" caseSensitive={false} element={<MobileDevices/>} />
+      </Routes>
+    </Router>
   )
 }
 
