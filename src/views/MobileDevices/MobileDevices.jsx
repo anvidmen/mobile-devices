@@ -20,11 +20,11 @@ const MobileDevices = () => {
   }, [])
 
   return (
-    <Body title="Mobile devices">
+    <Body title="Mobiles">
       <Container>
         {mobileDevices && mobileDevices.map(mobileDevice => (
-          <Card key={mobileDevice.id} mobileDevice={mobileDevice} />))
-        }
+          <Card key={mobileDevice.id} mobileDevice={mobileDevice} />
+        ))}
       </Container>
     </Body>
   )

@@ -5,7 +5,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  @media only screen and (max-width: 667px) {
+    
+    @media only screen and (max-width: 667px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
