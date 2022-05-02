@@ -15,6 +15,6 @@ export const Childrens = styled.div`
     display: flex;
     flex-grow: 1;    
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 1rem;
 `
