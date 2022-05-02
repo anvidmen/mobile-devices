@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 0 3rem;
+    padding: 0 0 0 2rem;
 
     & > a {
         float: left;
@@ -28,11 +28,8 @@ export const Container = styled.div`
     };
 
     @media ${Device.mobile} {
-        padding: 0 0 0 1rem;
-
         & > a {
-            font: bold normal normal 18px Helvetica Neue;
-            margin: 0 0.5rem
+            font: normal normal normal 22px Helvetica Neue;
         }
     }
 `
@@ -58,8 +55,8 @@ export const Routes = styled.div`
 
         & > svg {
             margin-left: 0.5rem;
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 2.4rem;
+            height: 2.4rem;
         };
 
         @media ${Device.mobile} {
